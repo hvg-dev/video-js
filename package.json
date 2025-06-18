@@ -7,8 +7,11 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "video.js": "^8.23.3"
+  },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.14.0"
   }
 }

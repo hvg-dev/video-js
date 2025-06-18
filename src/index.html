@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Parcel Vanilla App</h1>
+    <h1>Parcel <code>video.js</code> App</h1>
     <p>Edit <code>src/index.html</code> to get started!</p>
+
+    <video-js id="vid1" controls preload="auto">
+      <source
+        src="https://customer-vwh6hoe42nnigt4p.cloudflarestream.com/174cfe799f3aa1aa51274c2fffcefc58/manifest/video.m3u8"
+        type="application/x-mpegURL"
+      />
+    </video-js>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
